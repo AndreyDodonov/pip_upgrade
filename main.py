@@ -15,5 +15,7 @@ def upgradePIP ():
     
 button1 = tk.Button(text='      Upgrade PIP     ', command=upgradePIP, bg='green', fg='white', font=('helvetica', 12, 'bold'))
 canvas1.create_window(150, 180, window=button1)
+
+root.resizable(0, 0)
  
 root.mainloop()
